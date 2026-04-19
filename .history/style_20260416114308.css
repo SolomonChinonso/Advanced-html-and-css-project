@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e5e7eb;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -3%;
+}
+body{
+    max-width: 100%;
+    margin: 10px;
+}
+.social-handles a{
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.logo{
+    font-family: lobster;
+    font-weight: 400;
+    font-size: 24px;
+}
+.dot{
+    color:rgb(251, 207, 47)
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.badge{
+    width: 150px;
+    display: flex;
+    position: absolute;
+    top: 170px;
+    right: 140px;
+}
+.banner-section{
+    display: flex;
+    height: 640px;
+    width: 100%;
+}
+.details{
+    background-color: #E7FAFE;
+    min-width: 50%;
+}
+.banner img{
+    min-width: 50%;
+}
